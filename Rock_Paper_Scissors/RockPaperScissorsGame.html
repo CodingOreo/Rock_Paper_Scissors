@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Rock Paper Scissors Game</title>
+        <!-- Linking to Style Sheet -->
+        <link rel="stylesheet" href="styles.css">
+            
+       
+
+    </head>
+    <body>
+
+        <header>
+            <h1> Rock Paper Scissors</h1>
+        </header>
+            <!-- This Secton is the Score Board section which contains: User/Comp Badges and Score-->
+        <div class="score-board">
+            <div id="player-label" class="badge">Player 1</div> <!-- Displays Player 1-->
+            <div id="computer-label" class="badge">CPU</div>    <!-- Displays Computer-->
+            <span id="player-score">0</span>:<span id="computer-score">0</span> <!-- Displays Player and Computer Score-->
+        </div>
+        
+        <!-- This Section Prints out the result of chosen selections-->
+        <div class="result">
+            <p>Paper Covers Rock. You Win!</p>
+        </div>
+
+        <div class="choices"> 
+            <!-- Choice: Rock-->
+            <div class ="choice" id="rock">
+                <img src="images/rock.png" alt="">
+            </div>
+            <!-- Choice: Paper-->
+            <div class="choice" id="paper">
+                <img src="images/paper.png" alt ="">
+            </div>
+            <!-- Choice: Scissors-->
+            <div class="choice" id="scissors"> 
+                <img src="images/scissors.png" alt=""> 
+            </div>
+            
+        
+            </div>
+
+            <p id="action-message">Make Your Choice</p>
+            <!-- Javascript Code -->
+            <script src="apps.js" charset="utf-8"></script>
+
+    </body>
+</html>
